@@ -1,0 +1,12 @@
+ignite:
+  clientMode: true
+  peerClassLoadingEnabled: true
+  consistentId: consistent-id
+  discoverySpi:
+    ipFinder:
+      addresses:
+        - 127.0.0.1:47500..47509
+
+logging:
+  file:
+    name: ingithello.log
